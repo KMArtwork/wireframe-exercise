@@ -1,0 +1,109 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* header elements, h1-h6 | h4 is 1rem */
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.17rem;
+}
+
+h5 {
+    font-size: 0.83rem;
+}
+
+h6 {
+    font-size: 0.75rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+.flex {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav {
+    background-color: #444;
+    color: #ddd;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.5rem 2rem;
+}
+
+nav img {
+    margin: 0 2rem;
+}
+
+#navlinks {
+    display: flex;
+    justify-content: space-between; /* why is this not working? */
+    align-items: center;
+    width: 75%;
+}
+
+nav a {
+    margin: 0 2.5rem;
+}
+
+#content-container {
+    margin: 2rem 3rem;
+}
+
+#sub-banners-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#hero, #banners, #featured {
+    margin: 30px 0;
+}
+
+#featured {
+    display: flex;
+    justify-content: space-around;
+}
+
+#featured-banner, #featured-heading {
+    margin: 0 1rem;
+}
+
+
+#featured-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px; /* why do I have to manually set this value? without it, the flexbox keeps defaulting to 403px */
+}
+
+#scroll {
+    max-height: 325px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-style: italic;
+    font-weight: 550;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    width: 30%;
+    padding: 0.5rem;
+    border: 0;
+}
+
+footer {
+    background-color: #444;
+    height: 4.4rem;
+}
