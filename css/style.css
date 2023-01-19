@@ -37,20 +37,18 @@ h1, h2, h3, h4, h5, h6 {
 nav {
     background-color: #444;
     color: #ddd;
-    display: flex;
-    justify-content: flex-start;
-    padding: 0.5rem 2rem;
-}
 
-nav img {
-    margin: 0 2rem;
+    padding: 1rem 0;
 }
 
 #navlinks {
     display: flex;
-    justify-content: space-between; /* why is this not working? */
+    justify-content: center;
     align-items: center;
-    width: 75%;
+}
+
+#navlinks img{
+    margin-right: 8rem;
 }
 
 nav a {
@@ -63,16 +61,20 @@ nav a {
 
 #sub-banners-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+#sub-banner-a, #sub-banner-b, #sub-banner-c {
+    margin: 15px;
 }
 
 #hero, #banners, #featured {
-    margin: 30px 0;
+    margin: 15px 0;
 }
 
 #featured {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 #featured-banner, #featured-heading {
@@ -89,6 +91,7 @@ nav a {
 
 #scroll {
     max-height: 325px;
+    max-width: 450px;
     overflow-x: hidden;
     overflow-y: scroll;
     font-style: italic;
