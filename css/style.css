@@ -106,6 +106,10 @@ button {
     border: 0;
 }
 
+button:hover {
+    background-color:red;
+}
+
 footer {
     background-color: #444;
     height: 4.4rem;
